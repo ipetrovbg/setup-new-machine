@@ -57,3 +57,5 @@ WezTerm configuration
 
 ## Password Manager
 - KeepassXC - https://keepassxc.org/
+
+
