@@ -62,3 +62,8 @@ WezTerm configuration
 
 ## Note taking
 - Obsidian - https://obsidian.md/download 
+
+---
+
+## Postman
+- https://www.postman.com/downloads/
