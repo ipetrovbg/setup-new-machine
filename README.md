@@ -57,3 +57,8 @@ WezTerm configuration
 
 ## Password Manager
 - KeepassXC - https://keepassxc.org/
+
+---
+
+## Note taking
+- Obsidian - https://obsidian.md/download 
