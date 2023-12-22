@@ -13,9 +13,7 @@ brew install neovim
 - Install fzf - https://github.com/junegunn/fzf#using-homebrew
 - Install zoxide - https://github.com/ajeetdsouza/zoxide#getting-started
 - Install exa - https://github.com/ogham/exa
-
-
-
+- Install ripgrep (helps with telescope searching) - https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation
 
 #### Resources:
 - https://github.com/ipetrovbg?tab=repositories
@@ -67,3 +65,11 @@ WezTerm configuration
 
 ## Postman
 - https://www.postman.com/downloads/
+
+## PostgreSQL
+- https://www.postgresql.org/download/macosx/
+```
+brew install postgresql@15
+```
+Add to PATH
+e.g. `export PATH="/Library/PostgreSQL/16/bin:${PATH}"`
