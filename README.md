@@ -81,3 +81,9 @@ e.g. `export PATH="/Library/PostgreSQL/16/bin:${PATH}"`
 Cross-shell prompt
 `.config/starship.toml`
 - https://starship.rs/guide/#%F0%9F%9A%80-installation
+
+---
+
+## Clipboard Manager
+
+- https://github.com/ipetrovbg/PerfectClip
