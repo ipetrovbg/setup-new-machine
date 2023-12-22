@@ -73,3 +73,11 @@ brew install postgresql@15
 ```
 Add to PATH
 e.g. `export PATH="/Library/PostgreSQL/16/bin:${PATH}"`
+
+---
+
+## Starship
+
+Cross-shell prompt
+`.config/starship.toml`
+- https://starship.rs/guide/#%F0%9F%9A%80-installation
