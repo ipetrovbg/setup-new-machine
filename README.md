@@ -87,3 +87,21 @@ Cross-shell prompt
 ## Clipboard Manager
 
 - https://github.com/ipetrovbg/PerfectClip
+
+---
+
+## Setup `aws-vault`
+
+`brew install --cask aws-vault`
+
+- https://github.com/99designs/aws-vault/ 
+
+---
+
+## Setup JAVA
+
+`export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-21.jdk/Contents/Home`
+
+- https://docs.azul.com/core/install/macos
+
+---
