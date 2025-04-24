@@ -12,8 +12,11 @@ brew install neovim
 
 - Install fzf - https://github.com/junegunn/fzf#using-homebrew
 - Install zoxide - https://github.com/ajeetdsouza/zoxide#getting-started
-- Install exa - https://github.com/ogham/exa
+- Install eza - https://github.com/eza-community/eza
 - Install ripgrep (helps with telescope searching) - https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation
+- Install skhd - https://github.com/koekeishiya/skhd
+- Install yabai - https://github.com/koekeishiya/yabai 
+- Install sketchybar - https://github.com/FelixKratz/SketchyBar
 
 #### Resources:
 - https://github.com/ipetrovbg?tab=repositories
@@ -45,13 +48,10 @@ WezTerm configuration
 
 ---
 
-## Windows Manager MacOS
-
-- Rectangle - https://rectangleapp.com/
 
 ## Browser
 
-- Arc - https://arc.net/
+- Zen Browser - https://zen-browser.app/
 
 ## Password Manager
 - KeepassXC - https://keepassxc.org/
@@ -95,6 +95,25 @@ Cross-shell prompt
 `brew install --cask aws-vault`
 
 - https://github.com/99designs/aws-vault/ 
+
+---
+
+## Sketchybar configurations
+Menu linebar customisations for MacOS
+
+- https://github.com/ipetrovbg/sketchybar-config
+
+---
+
+## Yabai configurations
+Window Manager for MacOS
+
+- https://github.com/ipetrovbg/yabai-config
+
+---
+
+## skhd configurations
+- https://github.com/ipetrovbg/skhd-config
 
 ---
 

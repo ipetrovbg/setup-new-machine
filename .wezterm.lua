@@ -2,6 +2,33 @@ local wezterm = require("wezterm")
 local config = {}
 -- local dimmer = { brightness = 0.9 }
 
+-- Given "/foo/bar" returns "bar"
+function basename(s)
+  return s:match("([^/]+)/*$")
+end
+
+wezterm.on(
+  'format-tab-title',
+  function(tab, _, _, _, _, max_width)
+    -- local title = tab_title(tab)
+    local pane = tab.active_pane
+    local title = basename(pane.current_working_dir.path)
+    if title == "petarpetrov" then
+      title = "~"
+    end
+
+    -- ensure that the titles fit in the available space,
+    -- and that we have room for the edges.
+    title = wezterm.truncate_right(title, max_width - 2)
+
+    return {
+      { Text = " " },
+      { Text = title },
+      { Text = " " },
+    }
+  end
+)
+
 -- In newer versions of wezterm, use the config_builder which will
 -- help provide clearer error messages
 if wezterm.config_builder then
