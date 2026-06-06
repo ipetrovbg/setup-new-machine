@@ -124,3 +124,9 @@ Window Manager for MacOS
 - https://docs.azul.com/core/install/macos
 
 ---
+
+## Setup default browser CLI
+```
+brew install defaultbrowser
+defaultbrowser zen
+```
